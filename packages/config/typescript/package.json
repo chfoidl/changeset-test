@@ -1,0 +1,11 @@
+{
+  "name": "@local/typescript-config",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "typescript": "5.2.2"
+  },
+  "files": [
+    "base.json"
+  ]
+}

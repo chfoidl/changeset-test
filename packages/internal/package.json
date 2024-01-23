@@ -1,0 +1,15 @@
+{
+  "name": "@chfoidl/internal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "devDependencies": {
+    "@local/typescript-config": "workspace:^"
+  }
+}

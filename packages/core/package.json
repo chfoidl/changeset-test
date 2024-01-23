@@ -1,0 +1,24 @@
+{
+  "name": "@chfoidl/changeset-package-test",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@chfoidl/internal": "workspace:^"
+  },
+  "devDependencies": {
+    "@local/typescript-config": "workspace:^",
+    "tsup": "^8.0.1",
+    "typescript": "5.2.2"
+  }
+}
